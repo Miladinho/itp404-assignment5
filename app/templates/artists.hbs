@@ -1,8 +1,8 @@
 <h1>ITP 404 - Assignment 5, Ember 2</h1>
 {{outlet}}
-<h2>/tList of Songs</h2>
+<h2>List of Songs</h2>
 <ul>
   {{#each model as |artist|}}
-    <li> {{#link-to "artists.artist" artist.id}}{{artist.name}} {{artist.id}}{{/link-to}}</li>
+    <li> {{#link-to "artists.artist" artist.id}}Artist {{artist.id}}{{/link-to}}</li>
   {{/each}}
 </ul>
